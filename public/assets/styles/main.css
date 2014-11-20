@@ -1,0 +1,85 @@
+.boxes {
+  width: 100%;
+  float: left;
+  display: block;
+}
+header {
+  width: 100%;
+  float: left;
+  display: block;
+  height: 200px;
+  background-color: #112233;
+  text-align: center;
+  color: #cecece;
+}
+header h1 {
+  font-size: 3em;
+  margin: 60px 20px;
+}
+.container {
+  width: 100%;
+  float: left;
+  display: block;
+  text-align: center;
+  background-color: #621621;
+}
+.container h1 {
+  font-size: 1em;
+  color: #d5c7c7;
+}
+.container .messages {
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  font-size: 1em;
+  color: #000;
+  background-color: #cecece;
+}
+.container .dataInput {
+  width: 80%;
+  height: auto;
+  margin: 5%;
+  padding: 5%;
+  color: #000;
+  background-color: #9e9e9e;
+}
+.container .dataInput .sec {
+  font-size: 1em;
+  width: 98%;
+  padding: 1%;
+}
+.container .dataInput .sec #but {
+  width: 200px;
+  height: 50px;
+  color: #cecece;
+  background-color: #002244;
+  font-size: 1em;
+}
+.container .dataInput .sec #text1 {
+  width: 300px;
+  height: 120px;
+  font-size: 1em;
+}
+.container .dataInput .sec #username {
+  width: 300px;
+  height: 40px;
+  font-size: 1em;
+}
+.container .dataInput .sec #location {
+  width: 300px;
+  height: 40px;
+  font-size: 1em;
+}
+footer {
+  background-color: #112233;
+  text-align: center;
+  width: 100%;
+  float: left;
+  display: block;
+  height: 120px;
+  color: #d0cccc;
+}
+footer h3 {
+  font-size: 1.6em;
+  margin-top: 45px;
+}
